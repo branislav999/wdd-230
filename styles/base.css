@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+/* htmlselectors */
+img{
+    box-shadow: 0px 10px 15px #283618;
+}
+
+body {
+font-family: 'Poppins', sans-serif;
+background-color: #e9edc9;
+}
+
+
+header {
+    background-color: #a3b18a;
+    color: #283618;
+    text-align: center;
+    padding: 1.5rem 1rem 0.05px 1rem;
+}
+
+img{
+    max-width: 130px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+}
+
+nav li{
+    padding: 1rem 2rem 1rem 2rem;
+    box-shadow: 0px 10px 15px #283618;
+
+}
+nav li:hover{
+    background-color: #a3b18a;
+    transition: color 5.3s;
+    padding: 1rem 2rem 0rem 2rem;
+}
+
+
+nav a{
+    text-decoration: none;
+    color: #283618;
+}
+
+
+
+footer {
+    background-color: #a3b18a;
+    color: #283618;
+    text-align: center;
+    padding: 20px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 1fr 0.1fr 1.5fr 0.2fr;
+    padding-bottom: 5%;
+    grid-template-rows: 15% 85%;
+    text-align: center;
+}
+
+
+
+/* class selectors */
+
+.learning-heading, .info-heading{
+    background-color: #a3b18a;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    text-align: center;
+}
+
+.learning-activities{
+    grid-column: 2/5;
+    border: 1px solid #283618;
+    grid-row: 2/3;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 0px 5px 10px #283618;
+    border: 2px solid #283618;
+    text-align: left;
+}
+
+.information{
+    grid-column: 6/7;
+    border: 2px solid #283618;
+    grid-row: 2/3;
+    padding: 1rem 1rem 1rem 1rem;
+    box-shadow: 0px 5px 10px #283618;
+}
+
+.heading{
+    grid-row: 1/2;
+    grid-column: 1/8;
+    
+}
+
