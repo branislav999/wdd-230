@@ -2,7 +2,7 @@
 
 /* htmlselectors */
 img{
-    box-shadow: 0px 10px 15px #283618;
+    box-shadow: 0px 5px 10px #283618;
 }
 
 body {
@@ -14,8 +14,8 @@ background-color: #e9edc9;
 header {
     background-color: #a3b18a;
     color: #283618;
-    text-align: center;
-    padding: 1.5rem 1rem 0.05px 1rem;
+    display: flex;
+    
 }
 
 img{
