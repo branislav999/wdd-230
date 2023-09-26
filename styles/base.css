@@ -14,12 +14,18 @@ background-color: #e9edc9;
 header {
     background-color: #a3b18a;
     color: #283618;
-    display: flex;
-    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding: 30fr 30fr 30fr 30fr;
 }
 
 img{
-    max-width: 130px;
+    max-width: 190px;
+    grid-column: 2/3;
+}
+
+header h1{
+    grid-column: 3/4;
 }
 
 nav ul{
@@ -35,7 +41,6 @@ nav li{
 }
 nav li:hover{
     background-color: #a3b18a;
-    transition: color 5.3s;
     padding: 1rem 2rem 0rem 2rem;
 }
 
