@@ -1,0 +1,43 @@
+/* tr, th, td{
+    border: 1px solid gray
+} */
+
+
+/* html selectors */
+caption {
+    caption-side: bottom;
+    color: black;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, thead {
+    background-color: black;
+    color: white;
+    
+}
+
+th, td {
+    padding:.5em;
+    text-align: center;
+    
+    }
+
+tbody {
+    background-color: white;
+    color: black;   
+
+}
+
+tr:nth-child(even) {
+    background-color: #E1E1E1;
+}
+
+
+
+/* css selectors */
+.gray {
+    background-color: #333;
+}
